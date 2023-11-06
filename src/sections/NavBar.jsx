@@ -5,10 +5,13 @@ const NavBar = () => {
   return (
     <header>
       <nav className="padding-x py-5 flex items-center justify-between">
-        <div className="flex gap-5 font-montserrat">
-          <a href="/">Home</a>
-          <a href="/">Menu</a>
+        <div className="hidden sm:block">
+          <div className="flex gap-5 font-montserrat ">
+            <a href="/">Home</a>
+            <a href="/">Menu</a>
+          </div>
         </div>
+
         <div>
           <img src={SambaWitheLogo} alt="Samba Logo" height={50} width={100} />
         </div>
