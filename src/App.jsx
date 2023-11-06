@@ -1,7 +1,12 @@
+import { NavBar, Hero } from "./sections";
+
 function App() {
   return (
-    <main>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <main className=" bg-black text-white relative">
+      <NavBar />
+      <section className="xl:padding-l wide:padding-r padding-b">
+        <Hero />
+      </section>
     </main>
   );
 }
